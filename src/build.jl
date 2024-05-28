@@ -227,7 +227,11 @@ function solve!(m::AbstractMPSGEModel; kwargs...)
         fix(consumer, start_value(consumer))
     end
 
+    println("About to optimize")
+
     JuMP.optimize!(jm)
+
+    println("After the optimize")
 
     if !m.silent
         # Perhaps print a message here with solver status
