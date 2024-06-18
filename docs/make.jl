@@ -1,7 +1,7 @@
 using MPSGE_MP
 using Documenter
 
-DocMeta.setdocmeta!(MPSGE_MP, :DocTestSetup, :(using MPSGE_MP); recursive=true)
+DocMeta.setdocmeta!(MPSGE_MP, :Doctestitemup, :(using MPSGE_MP); recursive=true)
 
 
 const _PAGES = [

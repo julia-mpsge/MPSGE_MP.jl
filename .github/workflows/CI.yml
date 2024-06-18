@@ -70,5 +70,5 @@ jobs:
         run: |
           using Documenter: DocMeta, doctest
           using MPSGE_MP
-          DocMeta.setdocmeta!(MPSGE_MP, :DocTestSetup, :(using MPSGE_MP); recursive=true)
+          DocMeta.setdocmeta!(MPSGE_MP, :Doctestitemup, :(using MPSGE_MP); recursive=true)
           doctest(MPSGE_MP)
