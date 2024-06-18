@@ -30,7 +30,7 @@ makedocs(;
 
 deploydocs(;
     repo = "github.com/mitchphillipson/MPSGE_MP.jl",
-    devbranch = "main",
+    devbranch = "Documentation",
     branch = "gh-pages"
 )
 
